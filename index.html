@@ -1,42 +1,127 @@
 <!doctype html>
 <html lang="es-AR">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#283e62" />
-  <meta name="description" content="EQUITAS: gestión inteligente de cobranzas. Segmentamos deudores y orientamos estrategias adaptadas a cada situación." />
-  <meta property="og:title" content="EQUITAS | Cada situación merece una estrategia" />
-  <meta property="og:description" content="Una nueva mirada sobre la gestión de cobranzas: inteligente, segmentada y personalizada." />
-  <meta property="og:type" content="website" />
-  <title>EQUITAS | Gestión inteligente de cobranzas</title>
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-  <style>
-    :root{--navy:#283e62;--deep:#14243e;--bronze:#c69b68;--bronze-light:#efddc2;--ink:#1d2d44;--muted:#68758a;--bg:#f7f8fa;--line:#e6e9ef;--white:#fff}
-    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);font-family:'DM Sans',sans-serif;background:var(--bg);-webkit-font-smoothing:antialiased}a{text-decoration:none;color:inherit}button{font:inherit}::selection{background:#c69b6866}.wrap{width:min(1120px,calc(100% - 44px));margin:auto}
-    .nav{height:78px;background:var(--navy);border-bottom:1px solid #ffffff16;position:relative;z-index:3}.nav-inner{height:100%;display:flex;align-items:center;justify-content:space-between;gap:22px}.nav-brand{display:flex;align-items:center;gap:10px;color:#fff;font-family:Manrope,sans-serif;font-size:21px;font-weight:800;letter-spacing:.12em}.mark{width:39px;height:39px;object-fit:cover;object-position:left}.nav-links{display:flex;align-items:center;gap:28px;color:#d4dbe6;font-size:13px;font-weight:600}.nav-links a:hover{color:#fff}.nav-pill{border:1px solid #ffffff40;border-radius:100px;padding:11px 18px!important;color:white!important}.nav-pill:hover{background:#ffffff17}
-    .hero{background:radial-gradient(ellipse at 85% 40%,#44597890 0%,transparent 45%),linear-gradient(140deg,#243b60,#14243e 80%);color:#fff;position:relative;overflow:hidden}.hero:after{content:"";position:absolute;width:550px;height:550px;border:1px solid #ffffff0f;border-radius:50%;right:-240px;top:-150px;box-shadow:0 0 0 80px #ffffff05,0 0 0 160px #ffffff04;pointer-events:none}.hero-grid{display:grid;grid-template-columns:1.12fr .88fr;align-items:center;gap:45px;min-height:600px;padding:70px 0 85px}.eyebrow{display:inline-flex;gap:9px;align-items:center;color:#e4c59d;font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}.eyebrow:before{content:"";width:20px;height:2px;background:var(--bronze)}h1,h2,h3,p{margin-top:0}h1,h2,h3{font-family:Manrope,sans-serif}h1{font-size:clamp(38px,5.1vw,66px);line-height:1.115;letter-spacing:-.045em;margin:24px 0 23px;font-weight:800}h1 em{font-style:normal;color:#d5af7f}.lead{font-size:17px;line-height:1.8;color:#d9e0ea;max-width:560px;margin-bottom:30px}.actions{display:flex;flex-wrap:wrap;gap:12px}.btn{display:inline-flex;justify-content:center;align-items:center;gap:11px;padding:15px 22px;border-radius:9px;font-size:13px;font-weight:800;transition:.2s}.btn-gold{background:var(--bronze);color:#17253b}.btn-gold:hover{background:#e0b781;transform:translateY(-2px)}.btn-outline{border:1px solid #ffffff60;color:#fff}.btn-outline:hover{background:#ffffff12}.hero-note{margin-top:29px;font-size:12px;color:#aebcce}.hero-visual{position:relative;z-index:1}.hero-panel{background:#fff;color:var(--ink);border-radius:22px;padding:25px;box-shadow:0 25px 80px #07132580;transform:rotate(2deg)}.panel-top{display:flex;align-items:center;justify-content:space-between;gap:15px;border-bottom:1px solid var(--line);padding-bottom:20px}.panel-kicker{font-size:11px;text-transform:uppercase;letter-spacing:.11em;color:#728096;font-weight:800}.panel-title{font-family:Manrope;font-size:17px;font-weight:800;margin-top:5px}.panel-status{background:#e9f5ee;color:#258354;border-radius:30px;padding:7px 10px;font-size:10px;font-weight:800}.mini-row{display:flex;align-items:center;gap:12px;margin-top:18px;padding:14px;border:1px solid var(--line);border-radius:12px}.mini-icon{display:grid;place-items:center;height:41px;width:41px;flex-shrink:0;background:#eef2f8;border-radius:10px;color:var(--navy)}.mini-row:nth-child(3) .mini-icon{background:#f8f0e5;color:#a57643}.mini-row:nth-child(4) .mini-icon{background:#e9f4f0;color:#478b76}.mini-title{font-size:12px;font-weight:800}.mini-desc{font-size:11px;color:#758195;margin-top:4px}.mini-tag{margin-left:auto;font-size:10px;font-weight:700;color:#56677e;border-radius:20px;background:#f1f3f6;padding:5px 8px;white-space:nowrap}.visual-footer{text-align:center;color:#d8e2ef;font-size:12px;margin-top:22px}
-    section{padding:100px 0}.section-head{max-width:650px;margin:0 auto 48px;text-align:center}.section-label{color:#a07847;text-transform:uppercase;font-size:11px;font-weight:800;letter-spacing:.16em}.section-head h2{font-size:clamp(30px,3.4vw,43px);line-height:1.2;letter-spacing:-.035em;margin:14px 0}.section-head p{font-size:15px;color:var(--muted);line-height:1.8}.problem-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.contrast{padding:33px;border-radius:18px;background:white;border:1px solid var(--line)}.contrast.highlight{background:#eef1f6;border-color:#dbe3ee}.contrast-label{display:inline-block;padding:7px 10px;border-radius:6px;background:#f4f5f7;color:#7d8795;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.09em}.highlight .contrast-label{background:#dce5f3;color:var(--navy)}.contrast h3{font-size:23px;line-height:1.3;margin:22px 0 10px}.contrast p{font-size:14px;line-height:1.8;color:var(--muted);margin:0}.contrast.highlight h3{color:var(--navy)}
-    .how{background:white}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.step{padding:27px;border-radius:16px;background:var(--bg);border:1px solid var(--line)}.step-number{font-family:Manrope;font-size:30px;font-weight:800;color:var(--bronze)}.step h3{font-size:17px;margin:20px 0 10px}.step p{font-size:13px;color:var(--muted);line-height:1.75;margin:0}
-    .profiles{background:var(--deep);color:white}.profiles .section-head p{color:#c5d0de}.profile-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.profile{border:1px solid #ffffff25;background:#ffffff0b;border-radius:16px;padding:27px;min-height:220px}.profile-icon{font-size:25px;margin-bottom:24px}.profile h3{font-size:17px;margin-bottom:11px}.profile p{color:#c4cfde;font-size:13px;line-height:1.8;margin:0}.disclaimer{font-size:11px;color:#a9bad0;text-align:center;margin-top:26px}
-    .mission{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}.mission h2{font-size:clamp(29px,3.4vw,43px);line-height:1.22;letter-spacing:-.035em;margin:16px 0 20px}.mission p{font-size:15px;line-height:1.85;color:var(--muted)}.mission-card{padding:35px;border-radius:20px;background:#eaeef4;border:1px solid #dce3ec}.quote-mark{font:800 64px Manrope;color:var(--bronze);height:51px}.mission-card blockquote{margin:0;font:800 clamp(21px,2.7vw,31px)/1.42 Manrope;letter-spacing:-.025em;color:var(--navy)}
-    .cta{padding:70px 0;background:var(--navy);color:#fff;text-align:center}.cta h2{font-size:clamp(28px,3.6vw,42px);margin:0 0 15px;letter-spacing:-.03em}.cta p{color:#d3deeb;font-size:15px;line-height:1.8;max-width:600px;margin:0 auto 24px}.cta-kicker{font-size:11px;font-weight:800;letter-spacing:.15em;text-transform:uppercase;color:var(--bronze-light);margin-bottom:13px}.footer{background:#101d30;color:#b6c1d0;padding:27px 0}.footer-inner{display:flex;align-items:center;justify-content:space-between;gap:20px;font-size:12px}.footer strong{color:white;letter-spacing:.13em}.footer a:hover{color:white}
-    @media(max-width:800px){.nav-links a:not(.nav-pill){display:none}.hero-grid{grid-template-columns:1fr;min-height:0;padding:70px 0}.hero-visual{max-width:470px;width:100%;margin:auto}.hero-panel{transform:none}.problem-grid,.mission{grid-template-columns:1fr}.mission{gap:25px}.steps,.profile-grid{grid-template-columns:1fr}.steps{gap:14px}.profile{min-height:auto}section{padding:70px 0}.section-head{margin-bottom:32px}}@media(max-width:480px){.wrap{width:min(100% - 32px,1120px)}.nav{height:69px}.nav-links{font-size:12px}.nav-pill{padding:9px 12px!important}.hero-grid{padding:60px 0 65px;gap:36px}.hero h1{font-size:39px}.lead{font-size:15px}.hero-panel{padding:17px}.panel-title{font-size:15px}.mini-tag{display:none}.contrast,.mission-card{padding:24px}.footer-inner{flex-direction:column;text-align:center}.btn{width:100%}}
-    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
-  </style>
-</head>
-<body>
-<header class="nav"><div class="wrap nav-inner"><a class="nav-brand" href="#inicio" aria-label="EQUITAS inicio"><img src="assets/equitas-logo.png" alt="EQUITAS" style="width:155px;height:auto;display:block" /></a><nav class="nav-links" aria-label="Navegación"><a href="#problema">El desafío</a><a href="#solucion">Nuestra solución</a><a href="#diferencial">Diferencial</a><a class="nav-pill" href="#contacto">Conocé EQUITAS</a></nav></div></header>
-<main>
-<section class="hero" id="inicio"><div class="wrap hero-grid"><div><div class="eyebrow">Una nueva mirada sobre las cobranzas</div><h1>No todos los deudores son iguales.<br><em>¿Por qué cobrarles de la misma manera?</em></h1><p class="lead">EQUITAS propone una gestión de cobranzas más inteligente: analizar cada situación, identificar perfiles y orientar estrategias adaptadas a cada persona o grupo.</p><div class="actions"><a class="btn btn-gold" href="#solucion">Descubrí cómo funciona <span aria-hidden="true">↗</span></a><a class="btn btn-outline" href="#diferencial">Nuestro diferencial <span aria-hidden="true">↓</span></a></div><div class="hero-note">Proyecto universitario · Ingeniería en Sistemas · UCC</div></div><div class="hero-visual" aria-label="Ejemplo conceptual de segmentos de gestión"><div class="hero-panel"><div class="panel-top"><div><div class="panel-kicker">EQUITAS · Vista conceptual</div><div class="panel-title">Una cartera, distintas realidades</div></div><div class="panel-status">Segmentación</div></div><div class="mini-row"><div class="mini-icon">◉</div><div><div class="mini-title">Perfil con necesidad de acompañamiento</div><div class="mini-desc">Adaptar opciones y comunicación</div></div><span class="mini-tag">Personalizar</span></div><div class="mini-row"><div class="mini-icon">◈</div><div><div class="mini-title">Perfil con capacidad de regularización</div><div class="mini-desc">Priorizar una propuesta adecuada</div></div><span class="mini-tag">Orientar</span></div><div class="mini-row"><div class="mini-icon">◎</div><div><div class="mini-title">Perfil con datos a verificar</div><div class="mini-desc">Revisar información antes de actuar</div></div><span class="mini-tag">Analizar</span></div></div><div class="visual-footer">No es una simulación de resultados reales.</div></div></div></section>
-<section id="problema"><div class="wrap"><div class="section-head"><span class="section-label">El desafío</span><h2>Las mismas acciones no funcionan para todas las personas</h2><p>Una cartera de deudas reúne realidades distintas. Un enfoque uniforme puede ignorar esas diferencias.</p></div><div class="problem-grid"><article class="contrast"><div class="contrast-label">Enfoque uniforme</div><h3>Una estrategia para todos</h3><p>Mensajes, prioridades y acciones similares, independientemente de las características y circunstancias de cada deudor.</p></article><article class="contrast highlight"><div class="contrast-label">Enfoque EQUITAS</div><h3>Cada perfil, una estrategia</h3><p>Información organizada y segmentación para orientar acciones más pertinentes según las características de cada persona o grupo.</p></article></div></div></section>
-<section class="how" id="solucion"><div class="wrap"><div class="section-head"><span class="section-label">Nuestra solución</span><h2>De los datos a las decisiones</h2><p>Convertimos información dispersa en una base para gestionar cobranzas de forma más estratégica y contextualizada.</p></div><div class="steps"><article class="step"><div class="step-number">01</div><h3>Centralizamos</h3><p>Organizamos la información sobre deudas, personas y objetos asociados en un entorno de gestión.</p></article><article class="step"><div class="step-number">02</div><h3>Analizamos y agrupamos</h3><p>Identificamos características relevantes y construimos segmentos de deudores con situaciones comparables.</p></article><article class="step"><div class="step-number">03</div><h3>Orientamos la cobranza</h3><p>Facilitamos la definición de estrategias diferenciadas para cada grupo, con posibilidad de considerar casos particulares.</p></article></div></div></section>
-<section class="profiles" id="diferencial"><div class="wrap"><div class="section-head"><span class="section-label">Nuestro diferencial</span><h2>Personalizar no es tratar a todos por igual</h2><p>El valor de EQUITAS está en comprender las diferencias entre los deudores y ayudar a elegir el abordaje más apropiado.</p></div><div class="profile-grid"><article class="profile"><div class="profile-icon" aria-hidden="true">◇</div><h3>Situaciones diferentes</h3><p>Las personas pueden presentar distintos contextos, necesidades y condiciones para regularizar una deuda.</p></article><article class="profile"><div class="profile-icon" aria-hidden="true">◎</div><h3>Grupos relevantes</h3><p>La segmentación ayuda a reconocer perfiles similares y evita que toda la cartera sea gestionada como un único conjunto.</p></article><article class="profile"><div class="profile-icon" aria-hidden="true">↗</div><h3>Acciones adaptadas</h3><p>Las estrategias pueden variar en comunicación, seguimiento y alternativas de regularización según cada perfil.</p></article></div><p class="disclaimer">Ejemplos conceptuales del enfoque de EQUITAS. Las estrategias concretas requieren validación y criterios de gestión responsables.</p></div></section>
-<section id="impacto"><div class="wrap mission"><div><span class="section-label">Lo que buscamos generar</span><h2>Una gestión más eficiente, pero también más humana.</h2><p>Queremos que las organizaciones puedan tomar mejores decisiones sobre sus carteras de deuda, optimizar recursos y reconocer que detrás de cada registro existe una situación particular.</p><p>EQUITAS está pensado para municipios, organismos públicos y organizaciones que gestionan grandes volúmenes de deudas.</p></div><div class="mission-card"><div class="quote-mark">“</div><blockquote>Cada deuda es diferente. Cada solución también debería serlo.</blockquote></div></div></section>
-<section class="cta" id="contacto"><div class="wrap"><div class="cta-kicker">EQUITAS · Demo Day</div><h2>La cobranza inteligente comienza por entender a las personas.</h2><p>Un proyecto de Ingeniería en Sistemas de la Universidad Católica de Córdoba que propone cambiar la forma de abordar la gestión de deudas.</p><a class="btn btn-gold" href="#inicio">Volver al inicio ↑</a></div></section>
-</main>
-<footer class="footer"><div class="wrap footer-inner"><div><strong>EQUITAS</strong> · Gestión inteligente de cobranzas</div><div>Proyecto académico · Universidad Católica de Córdoba</div></div></footer>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#172b47" />
+    <meta name="description" content="Conocé EQUITAS, un proyecto académico de la UCC que propone organizar datos y segmentar carteras para una gestión de cobranzas más inteligente y humana." />
+    <meta property="og:title" content="EQUITAS | Cada perfil, una estrategia" />
+    <meta property="og:description" content="Una nueva mirada sobre las cobranzas. Conocé la propuesta, explorá un ejemplo y conectá con el equipo." />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_AR" />
+    <meta property="og:site_name" content="EQUITAS" />
+    <meta name="twitter:card" content="summary" />
+    <title>EQUITAS | Gestión inteligente de cobranzas</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <header class="header" id="inicio">
+      <div class="wrap nav">
+        <a class="brand" href="#inicio" aria-label="EQUITAS, inicio">
+          <span class="brand-symbol" aria-hidden="true">E<span></span></span>
+          <span>EQUITAS<span class="brand-caption">Cada perfil, una estrategia</span></span>
+        </a>
+        <nav aria-label="Navegación principal">
+          <a class="nav-section" href="#solucion">La propuesta</a>
+          <a class="nav-section" href="#ejemplo">Un ejemplo</a>
+          <a class="nav-section" href="#equipo">El proyecto</a>
+          <a class="nav-contact" href="#contacto">Hablemos <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
+    <main id="contenido" tabindex="-1">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="wrap hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow"><span></span> Gestión inteligente de cobranzas</p>
+            <h1 id="hero-title">Cada deuda tiene<br class="desktop-break" /> una historia.<br /><em>Cada perfil, una estrategia.</em></h1>
+            <p class="lead">EQUITAS propone organizar la información de una cartera, identificar perfiles y orientar una cobranza adaptada a cada situación.</p>
+            <div class="actions">
+              <a class="button button-gold" href="#contacto">Hablemos del proyecto <span aria-hidden="true">↗</span></a>
+              <a class="text-link" href="#solucion">Conocé la propuesta <span aria-hidden="true">↓</span></a>
+            </div>
+            <p class="hero-note">Proyecto académico · Ingeniería en Sistemas · UCC</p>
+          </div>
+          <figure class="overview">
+            <div class="overview-top"><span class="tiny-label">EL ENFOQUE EQUITAS</span><span class="concept-badge">Conceptual</span></div>
+            <p class="overview-title">Una cartera.<br /><strong>Distintas realidades.</strong></p>
+            <div class="portfolio"><span class="portfolio-icon" aria-hidden="true">▥</span><div><strong>Información de la cartera</strong><span>Personas, deudas y contexto</span></div><span aria-hidden="true">↓</span></div>
+            <div class="flow-line" aria-hidden="true"></div>
+            <div class="profile-row"><span class="profile-dot dot-gold" aria-hidden="true"></span><div><strong>Necesita acompañamiento</strong><span>Adaptar opciones y comunicación</span></div><span class="row-arrow" aria-hidden="true">↗</span></div>
+            <div class="profile-row"><span class="profile-dot dot-blue" aria-hidden="true"></span><div><strong>Puede regularizar</strong><span>Orientar una propuesta adecuada</span></div><span class="row-arrow" aria-hidden="true">↗</span></div>
+            <div class="profile-row"><span class="profile-dot dot-green" aria-hidden="true"></span><div><strong>Requiere verificar datos</strong><span>Revisar información antes de actuar</span></div><span class="row-arrow" aria-hidden="true">↗</span></div>
+            <figcaption>Ejemplo ilustrativo del enfoque.<br />No representa datos ni resultados reales.</figcaption>
+          </figure>
+        </div>
+        <div class="wrap audience-strip"><p>PENSADO PARA</p><ul><li>Municipios</li><li>Organismos públicos</li><li>Organizaciones con carteras de deuda</li></ul></div>
+      </section>
+      <section class="section solution" id="solucion" aria-labelledby="solution-title">
+        <div class="wrap">
+          <div class="section-intro"><div><p class="eyebrow dark">La propuesta</p><h2 id="solution-title">De los datos dispersos<br />a una gestión con contexto.</h2></div><p>Una cartera reúne situaciones diferentes. EQUITAS busca hacer visibles esas diferencias para ayudar a decidir cómo abordar cada una.</p></div>
+          <ol class="steps">
+            <li><span class="step-number">01 <span aria-hidden="true">↗</span></span><h3>Reunir la información</h3><p>Organizar los datos de personas y deudas en un mismo entorno para tener una visión de la cartera.</p><span class="step-result">Una base para comprender</span></li>
+            <li><span class="step-number">02 <span aria-hidden="true">↗</span></span><h3>Reconocer los perfiles</h3><p>Agrupar situaciones con características comparables y detectar qué casos necesitan otra mirada.</p><span class="step-result">Diferencias que se hacen visibles</span></li>
+            <li><span class="step-number">03 <span aria-hidden="true">↗</span></span><h3>Orientar las acciones</h3><p>Ayudar al equipo de gestión a definir la comunicación, el seguimiento y las alternativas para cada grupo.</p><span class="step-result">Decisiones mejor informadas</span></li>
+          </ol>
+          <div class="principle"><span aria-hidden="true">↳</span><p>El objetivo: una gestión <strong>más estratégica y más humana</strong>, que tenga en cuenta a las personas detrás de los registros.</p></div>
+        </div>
+      </section>
+      <section class="section example" id="ejemplo" aria-labelledby="example-title">
+        <div class="wrap example-grid">
+          <div class="example-copy"><p class="eyebrow dark">Una idea, en concreto</p><h2 id="example-title">Misma cartera.<br /><em>Diferentes próximos pasos.</em></h2><p>Una persona puede necesitar alternativas de pago. Otra, una revisión de sus datos. Reconocer esa diferencia ayuda a orientar la gestión.</p><p class="example-caption">Explorá estos perfiles ilustrativos para conocer el enfoque.</p><a class="inline-link" href="#contacto">Conversalo con el equipo <span aria-hidden="true">↗</span></a></div>
+          <div class="example-panel">
+            <p class="tiny-label">EJEMPLOS DE SEGMENTACIÓN</p>
+            <div class="example-options" role="group" aria-label="Elegí un perfil ilustrativo" hidden>
+              <button class="profile-choice" type="button" aria-pressed="true" data-profile="acompanamiento" aria-controls="profile-detail">Acompañamiento</button>
+              <button class="profile-choice" type="button" aria-pressed="false" data-profile="regularizacion" aria-controls="profile-detail">Regularización</button>
+              <button class="profile-choice" type="button" aria-pressed="false" data-profile="verificacion" aria-controls="profile-detail">Verificación</button>
+            </div>
+            <div class="profile-detail" id="profile-detail" aria-live="polite" aria-atomic="true">
+              <span class="detail-icon" aria-hidden="true">◎</span>
+              <h3 id="profile-title">Necesita acompañamiento</h3>
+              <p id="profile-description">Una situación que requiere comprender las dificultades para regularizar una deuda.</p>
+              <div class="detail-action"><span>POSIBLE ABORDAJE</span><p id="profile-action">Evaluar alternativas de pago y adaptar la comunicación a esa situación.</p></div>
+            </div>
+            <p class="example-note">Perfiles y acciones conceptuales; su aplicación requiere evaluación del equipo de gestión.</p>
+            <noscript><p class="no-script">Otros ejemplos: regularización, para orientar una propuesta adecuada; y verificación, para revisar información antes de actuar.</p></noscript>
+          </div>
+        </div>
+      </section>
+      <section class="section about" id="equipo" aria-labelledby="about-title">
+        <div class="wrap about-grid">
+          <div><p class="eyebrow">El proyecto</p><h2 id="about-title">Tecnología con una<br /><em>mirada humana.</em></h2><p>EQUITAS es un proyecto académico de Ingeniería en Sistemas de la Universidad Católica de Córdoba.</p><p>Exploramos cómo la organización de datos y la segmentación pueden ayudar a las organizaciones a gestionar sus carteras con más contexto y criterio.</p><a class="text-link" href="#contacto">Conectá con el equipo <span aria-hidden="true">↗</span></a></div>
+          <div class="about-aside"><span class="tiny-label">LO QUE NOS MUEVE</span><p>Detrás de cada registro,<br /><em>hay una persona.</em></p><div class="academic-info"><span class="academic-initials" aria-hidden="true">UCC</span><div><strong>Universidad Católica de Córdoba</strong><span>Ingeniería en Sistemas · Proyecto académico</span></div></div></div>
+        </div>
+      </section>
+      <section class="section faq" id="preguntas" aria-labelledby="faq-title">
+        <div class="wrap faq-grid">
+          <div><p class="eyebrow dark">Un poco más</p><h2 id="faq-title">Antes de <br />seguir conversando.</h2><p>Respuestas rápidas sobre la propuesta.</p></div>
+          <div class="faq-items">
+            <details><summary>¿Para quién está pensado EQUITAS?<span aria-hidden="true">+</span></summary><p>Para municipios, organismos públicos y organizaciones que gestionan carteras de deuda y necesitan comprender mejor sus distintos perfiles.</p></details>
+            <details><summary>¿Es un producto comercial disponible?<span aria-hidden="true">+</span></summary><p>Esta página presenta una propuesta académica. Para conocer el estado del proyecto, sus alcances y las posibilidades de una demostración, contactá al equipo.</p></details>
+            <details><summary>¿Qué muestran los ejemplos de esta página?<span aria-hidden="true">+</span></summary><p>Son situaciones ilustrativas para explicar la segmentación. No contienen información de personas reales ni representan resultados medidos.</p></details>
+            <details><summary>¿Cómo puedo conocer más o aportar al proyecto?<span aria-hidden="true">+</span></summary><p>Nos interesa conversar con quienes gestionan cobranzas, conocer sus desafíos y recibir comentarios. Podés usar el contacto al final de esta página.</p></details>
+          </div>
+        </div>
+      </section>
+      <section class="contact-section" id="contacto" aria-labelledby="contact-title">
+        <div class="wrap contact-card">
+          <div><p class="eyebrow dark">Sigamos la conversación</p><h2 id="contact-title">¿Te imaginás EQUITAS <br />en tu organización?</h2><p>Contanos qué desafíos encontrás en la gestión de cobranzas, pedinos más información o acercanos tu mirada.</p></div>
+          <div class="contact-actions">
+            <div>
+              <a class="button button-navy" id="whatsapp-link" href="https://wa.me/5493548538189?text=Hola%2C%20conoc%C3%AD%20EQUITAS%20y%20me%20gustar%C3%ADa%20saber%20m%C3%A1s%20sobre%20el%20proyecto." target="_blank" rel="noopener noreferrer">Hablemos por WhatsApp <span aria-hidden="true">↗</span></a>
+              <p class="contact-number" id="contact-number">+54 9 3548 53-8189</p>
+              <button type="button" class="copy-contact" id="copy-contact" hidden>Copiar número <span aria-hidden="true">⧉</span></button>
+              <p class="contact-help">Se abre WhatsApp con un mensaje para que lo envíes.</p>
+            </div>
+            <p id="copy-status" class="copy-status" role="status"></p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer"><div class="wrap footer-inner"><div><a class="footer-brand" href="#inicio">EQUITAS</a><p>Cada perfil, una estrategia.</p></div><p>Proyecto académico · Universidad Católica de Córdoba</p><a class="footer-top" href="#inicio">Volver arriba <span aria-hidden="true">↑</span></a></div></footer>
+  </body>
 </html>
