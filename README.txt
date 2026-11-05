@@ -5,6 +5,7 @@ ARCHIVOS
 - assets/styles.css: diseño adaptable a celulares, tablets y escritorio.
 - assets/site.js: ejemplos de perfiles y botón para copiar el número.
 - assets/favicon.svg: ícono de pestaña.
+- assets/equitas-logo.png: logo oficial en PNG de alta resolución.
 - LANDING-REVIEW.md: investigación, decisiones y pendientes de publicación.
 
 VISTA PREVIA LOCAL
@@ -35,5 +36,5 @@ CONTENIDO
 Se conserva la propuesta de segmentación y su origen académico en la UCC.
 Los perfiles son ejemplos conceptuales, sin datos ni resultados reales.
 No se incluyen testimonios, clientes, métricas ni funciones no verificadas.
-El logo PNG mencionado en la versión anterior no estaba en el repositorio;
-se usa una marca tipográfica local. Puede sustituirse por el recurso oficial.
+El logo oficial se muestra en la cabecera y el pie de página.
+El slogan es "Por que cobrar mejor es entender mejor".
